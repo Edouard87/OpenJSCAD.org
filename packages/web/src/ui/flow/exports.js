@@ -1,7 +1,7 @@
 const most = require('most')
 const { exportFilePathFromFormatAndDesign } = require('../../core/io/exportUtils')
 const { prepareOutput } = require('@jscad/core/io/prepareOutput')
-const { convertToBlob } = require('@jscad/core/io/convertToBlob')
+const { convertToBlob } = require('@jscad/io-utils')
 const withLatestFrom = require('@jscad/core/observable-utils/withLatestFrom')
 // const saveDataToFs = require('../../core/io/saveDataToFs')
 

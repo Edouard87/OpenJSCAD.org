@@ -42,6 +42,7 @@
     "@jscad/examples": "1.7.2",
     "@jscad/modeling": "0.0.1",
     "@jscad/io": "1.0.0-alpha.d0fb3056",
+    "@jscad/io-utils":"1.0.0-alpha.d0fb3056",
     "@jscad/regl-renderer": "0.0.0",
     "@jscad/vtree":"0.0.1",
     "bel": "^6.0.0",

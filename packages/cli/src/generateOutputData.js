@@ -1,7 +1,7 @@
 const fs = require('fs')
 const { isAbsolute, resolve } = require('path')
 const { prepareOutput } = require('@jscad/core/io/prepareOutput')
-const { convertToBlob } = require('@jscad/core/io/convertToBlob')
+const { convertToBlob } = require('@jscad/io-utils')
 // const rebuildSolids = require('@jscad/core/code-evaluation/rebuildGeometry')
 const rebuildSolids = require('@jscad/core/code-evaluation/rebuildGeometryCli')
 const { registerAllExtensions } = require('@jscad/core/io/registerExtensions')
